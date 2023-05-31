@@ -9,8 +9,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Payment extends JFrame {
-
+public class Payment extends JFrame 
+{
+	JButton b2;
+	private Font f1;
     private JTextField entryDateField;
     private JTextField exitDateField;
     private JCheckBox foodType1CheckBox;
@@ -20,7 +22,8 @@ public class Payment extends JFrame {
     private JLabel totalPaymentLabel;
 	private Container c;
 
-    public Payment() {
+    public Payment() 
+	{
 		
 		c = this.getContentPane();
      	c.setBackground(Color.GRAY);
@@ -30,6 +33,8 @@ public class Payment extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(null);
 		setVisible(true);
+		
+		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
 
         JLabel entryDateLabel = new JLabel("Entry Date (dd-MM-yyyy):");
         entryDateLabel.setBounds(50, 50, 150, 30);
@@ -105,6 +110,30 @@ public class Payment extends JFrame {
 			}
 			
         });
+		
+		
+		b2= new JButton();
+		b2.setText("Back");
+		b2.setBounds(50,500,200,40);
+		b2.setFont(f1);
+		b2.setForeground(Color.WHITE);
+     	b2.setBackground(Color.BLACK);
+     	c.add(b2);
+
+
+
+     	b2.addActionListener(new ActionListener()
+		{
+			
+			public void actionPerformed (ActionEvent e)
+			{
+				Insert back = new Insert();
+				back.setVisible(true);
+				dispose();
+			}
+			
+		});
+		
 
     }
 
