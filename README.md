@@ -2,6 +2,11 @@
 
 PetHome is a Java Swing project that aims to provide a management system for a pet shop. This project is designed to simplify the process of managing various tasks such as adding and updating pets, managing customer information, and handling sales transactions.
 
+## Contributors:
+1. Tanmoy Das; **Student ID:** 22-49422-3
+2. [Fatema Binte Islam Neha](https://github.com/fatemaneha); **Student ID:** 22-49411-3
+3. [Meherun Nessa Suchana](https://github.com/MeherunNessaSuchana); **Student ID:** 22-49405-3
+
 ## Features
 
 The PetHome project includes the following features:
