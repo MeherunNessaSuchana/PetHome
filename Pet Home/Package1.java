@@ -1,5 +1,6 @@
 
 
+
 import java.lang.*;
 import javax.swing.*;
 import java.awt.*;
@@ -31,7 +32,7 @@ public class Package1 extends JFrame
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 45);
 	
 		l0 = new JLabel();
-     	l0.setText("        Package For Dogs ");
+     	l0.setText("        Package For Cats ");
      	l0.setBounds(20,75,590,60);
    		l0.setFont(f1);
      	l0.setOpaque(true);
@@ -170,7 +171,7 @@ public class Package1 extends JFrame
 		
 		img1 = new ImageIcon(getClass().getResource("img1.png"));
 		imagelabel1 = new JLabel(img1);
-		imagelabel1.setBounds(750,100,250,400);
+		imagelabel1.setBounds(610,100,400,400);
 		c.add(imagelabel1);
 		
 		
