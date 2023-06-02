@@ -168,9 +168,9 @@ public class Package4 extends JFrame
 		
 		
 		
-		img1 = new ImageIcon(getClass().getResource("img1.png"));
+		img1 = new ImageIcon(getClass().getResource("img4.png"));
 		imagelabel1 = new JLabel(img1);
-		imagelabel1.setBounds(750,100,250,400);
+		imagelabel1.setBounds(610,100,400,400);
 		c.add(imagelabel1);
 		
 		
