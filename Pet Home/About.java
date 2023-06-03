@@ -23,6 +23,7 @@ public class About extends JFrame
     setLayout(null);
     setVisible(true);
     setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    setResizable(false);
 	
 	f = new Font("Arial",Font.BOLD + Font.ITALIC, 30);
 	f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 50);
