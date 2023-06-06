@@ -8,7 +8,7 @@ import java.awt.event.*;
 public class Home extends JFrame
 {
 	JLabel imagelabel0, welcome;
-	ImageIcon img0;
+	ImageIcon img0, imgLogo;
 	JButton b1,b2,b3,b4;
 	private Container c;
 	private Font f;
@@ -23,12 +23,16 @@ public class Home extends JFrame
 		imagelabel0 = new JLabel(img0);
 		imagelabel0.setBounds(275, 100, 600, 450);
 		c.add(imagelabel0);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
      	setTitle("PET HOME");
      	setBounds(300, 100, 1000,600);
      	setLayout(null);
      	setVisible(true);
      	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable (false);
 		
 		f = new Font("Arial",Font.BOLD + Font.ITALIC, 40);
 		
@@ -106,9 +110,12 @@ public class Home extends JFrame
 			}
 			
 		});
-		
-		
-		
+			
+	}
+	
+	public static void main(String[]args)
+	{
+		new Home();
 	}
 	
 }
