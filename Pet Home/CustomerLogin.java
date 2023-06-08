@@ -14,6 +14,7 @@ public class CustomerLogin extends JFrame
 	private JButton b1,b2,b3;
 	JTextField t1;
 	JPasswordField p1;
+	ImageIcon imgLogo;
 
 	private Font f1,f2,f3;
 	private Container c;
@@ -30,6 +31,9 @@ public class CustomerLogin extends JFrame
      	setVisible(true);
      	setResizable(false);
      	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
      	f1 = new Font("Arial",Font.BOLD, 20);
      	f2 = new Font("Courier",Font.BOLD, 20);
