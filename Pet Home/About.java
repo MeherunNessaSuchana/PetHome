@@ -12,6 +12,7 @@ public class About extends JFrame
 	private Font f, f1;
 	private Container c;
 	private JButton b1, b2, b3;
+	ImageIcon imgLogo;
 	
 	About()
 	{
@@ -23,10 +24,12 @@ public class About extends JFrame
     setLayout(null);
     setVisible(true);
     setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-    setResizable(false);
 	
 	f = new Font("Arial",Font.BOLD + Font.ITALIC, 30);
 	f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 50);
+	
+	imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+	this.setIconImage (imgLogo.getImage());
 	
 	l0 = new JLabel();
     l0.setText("About");
