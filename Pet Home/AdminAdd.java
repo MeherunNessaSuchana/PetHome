@@ -12,6 +12,7 @@ public class AdminAdd extends JFrame {
 	JButton b1, b2;
 	JTextField t1, t2, t3, t4, t5;
 	JComboBox<String> cb1;
+	ImageIcon imgLogo;
 
 	private Font f1, f2;
 	private Container c;
@@ -25,6 +26,9 @@ public class AdminAdd extends JFrame {
 		setLayout(null);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
 		f1 = new Font("Arial", Font.BOLD + Font.ITALIC, 20);
 		f2 = new Font("Courier", Font.PLAIN, 18);
