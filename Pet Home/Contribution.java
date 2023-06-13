@@ -12,6 +12,7 @@ public class Contribution extends JFrame
 	private Font f, f1;
 	private Container c;
 	private JButton b1,b2;
+	ImageIcon imgLogo;
 	
 	Contribution()
 	{
@@ -23,6 +24,9 @@ public class Contribution extends JFrame
      	setLayout(null);
      	setVisible(true);
      	setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 		f = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 30);
