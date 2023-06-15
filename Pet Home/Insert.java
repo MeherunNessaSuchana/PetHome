@@ -14,6 +14,7 @@ public class Insert extends JFrame
 	JButton b1,b2;
 	JTextField t1,t2,t3,t4,t5;
 	JComboBox<String> cb1,cb2,cb3;
+	ImageIcon imgLogo;
 
 	//ImageIcon img;
 	private Font f1,f2;
@@ -24,6 +25,9 @@ public class Insert extends JFrame
 	{
 		c = this.getContentPane();
      	c.setBackground(Color.GRAY);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
      	setTitle("INSERT");
      	setBounds(300, 100, 1000,600);
