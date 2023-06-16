@@ -58,6 +58,7 @@ public class UserData extends JFrame {
         b1.setFont(f2);
         b1.setForeground(Color.WHITE);
         b1.setBackground(Color.BLACK);
+        b1.setFocusable(false);
         c.add(b1);
 
         b2 = new JButton("Delete");
@@ -65,13 +66,15 @@ public class UserData extends JFrame {
         b2.setFont(f2);
         b2.setForeground(Color.WHITE);
         b2.setBackground(Color.BLACK);
+        b2.setFocusable(false);
         c.add(b2);
 
         b3 = new JButton("Add");
         b3.setBounds(442, 418, 184, 50);
         b3.setFont(f2);
-        b4.setForeground(Color.WHITE);
-        b4.setBackground(Color.BLACK);
+        b3.setForeground(Color.WHITE);
+        b3.setBackground(Color.BLACK);
+        b3.setFocusable(false);
         c.add(b3);
 
         b4 = new JButton("Back");
@@ -79,6 +82,7 @@ public class UserData extends JFrame {
         b4.setFont(f2);
         b4.setForeground(Color.WHITE);
         b4.setBackground(Color.BLACK);
+        b4.setFocusable(false);
         c.add(b4);
 
         b5 = new JButton("Log Out");
@@ -86,6 +90,7 @@ public class UserData extends JFrame {
         b5.setFont(f3);
         b5.setForeground(Color.WHITE);
         b5.setBackground(Color.BLACK);
+        b5.setFocusable(false);
         c.add(b5);
 
         // JTable Layout

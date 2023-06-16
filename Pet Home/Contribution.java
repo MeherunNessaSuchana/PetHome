@@ -75,6 +75,7 @@ public class Contribution extends JFrame
 		
 		b1= new JButton("Back");
      	b1.setBounds(2,520,100,50);
+		b1.setFocusable(false);
      	c.add(b1);
 		
 		b1.addActionListener(new ActionListener(){
@@ -92,6 +93,7 @@ public class Contribution extends JFrame
 		
 		b2= new JButton("Exit");
      	b2.setBounds(898,520,100,50);
+		b2.setFocusable(false);
      	c.add(b2);
 		
 		b2.addActionListener(new ActionListener(){

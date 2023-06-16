@@ -348,6 +348,7 @@ public class Registration extends JFrame {
 		b1.setFont(f1);
 		b1.setForeground(Color.WHITE);
 		b1.setBackground(Color.BLACK);
+		b1.setFocusable(false);
 		c.add(b1);
 
 		b2 = new JButton();
@@ -356,6 +357,7 @@ public class Registration extends JFrame {
 		b2.setFont(f1);
 		b2.setForeground(Color.WHITE);
 		b2.setBackground(Color.BLACK);
+		b2.setFocusable(false);
 		c.add(b2);
 
 		b2.addActionListener(new ActionListener() {

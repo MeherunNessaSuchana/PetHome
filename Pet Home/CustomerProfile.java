@@ -9,7 +9,7 @@ import java.awt.event.*;
    public class CustomerProfile extends JFrame
    {
 	private Container c;
-	private JButton b1,b2,b3,b4,b5;
+	private JButton b1,b2,b4;
 	private Font f1,f2,f3,f4;
 	//private ImageIcon icon;
 	
@@ -38,6 +38,7 @@ import java.awt.event.*;
 	    b1 = new JButton("User Defined"); 
 		b1.setBounds (400,150,200,50) ;
 		b1.setFont(f1);
+		b1.setFocusable(false);
 		c.add(b1);
 		
 		
@@ -45,12 +46,14 @@ import java.awt.event.*;
 		b2 = new JButton("Default Packages");
 		b2.setBounds (400,250,200,50) ;
 		b2.setFont(f2);
+		b2.setFocusable(false);
 		c.add(b2);
 		
 		
 		b4 = new JButton("Log Out");
 		b4.setBounds (880,10,100,20);
 		b4.setFont(f4);
+		b4.setFocusable(false);
 		c.add(b4);
 		
 	    	

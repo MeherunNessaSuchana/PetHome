@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class AdminProfile extends JFrame
 {
 	private Container c;
-	private JButton b1,b2,b3,b4,b5;
+	private JButton b1,b2,b3,b4;
 	private Font f1,f2,f3,f4,f5;
 	//private ImageIcon icon;
 	
@@ -34,6 +34,7 @@ public class AdminProfile extends JFrame
 	    b1 = new JButton("User details"); 
 		b1.setBounds (130,100,200,50) ;
 		b1.setFont(f1);
+		b1.setFocusable(false);
 		c.add(b1);
 		
 		
@@ -41,12 +42,14 @@ public class AdminProfile extends JFrame
 		b2 = new JButton("View Packages");
 		b2.setBounds (130,200,200,50) ;
 		b2.setFont(f2);
+		b2.setFocusable(false);
 		c.add(b2);
 		
 		
 		b3 = new JButton("History");
 		b3.setBounds (130,300,200,50) ;
 		b3.setFont(f3);
+		b3.setFocusable(false);
 		c.add(b3);
 		
 		
@@ -55,6 +58,7 @@ public class AdminProfile extends JFrame
 		b4 = new JButton("Log Out");
 		b4.setBounds (880,10,100,20);
 		b4.setFont(f4);
+		b4.setFocusable(false);
 		c.add(b4);
 		
 

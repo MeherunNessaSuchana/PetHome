@@ -12,7 +12,7 @@ public class AdminLogin extends JFrame
 {
 	
 	JLabel l1,l2,l3,l4,l5;
-	private JButton b1,b2,b3;
+	private JButton b2,b3;
 	JTextField t1;
 	JPasswordField p1;
 
@@ -65,22 +65,13 @@ public class AdminLogin extends JFrame
 		p1.setEchoChar('*');
 		c.add(p1);
 
-	/*	b1= new JButton();
-		b1.setText("Sign Up");
-		b1.setBounds(730,500,200,40);
-		b1.setFont(f1);
-		b1.setForeground(Color.WHITE);
-     	b1.setBackground(Color.BLACK);
-     	c.add(b1);
-		
-	*/
-
      	b2= new JButton();
 		b2.setText("Home");
 		b2.setBounds(50,500,200,40);
 		b2.setFont(f1);
 		b2.setForeground(Color.WHITE);
      	b2.setBackground(Color.BLACK);
+		b2.setFocusable(false);
      	c.add(b2);
 
      	b3= new JButton();
@@ -89,6 +80,7 @@ public class AdminLogin extends JFrame
 		b3.setFont(f1);
 		b3.setForeground(Color.WHITE);
      	b3.setBackground(Color.BLACK);
+		b3.setFocusable(false);
      	c.add(b3);
 
 		

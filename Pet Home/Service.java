@@ -46,22 +46,27 @@ public class Service extends JFrame{
 
      	b1= new JButton("DOG");
      	b1.setBounds(20,70,200,100);
+		b1.setFocusable(false);
      	c.add(b1);
 
      	b2= new JButton("CAT");
      	b2.setBounds(20,180,200,100);
+		b2.setFocusable(false);
      	c.add(b2);
 
      	b3= new JButton("BIRDS");
      	b3.setBounds(20,290,200,100);
+		b3.setFocusable(false);
      	c.add(b3);
 
      	b4= new JButton("FISH");
      	b4.setBounds(20,400,200,100);
+		b4.setFocusable(false);
      	c.add(b4);
 		
 		b5= new JButton("Back");
      	b5.setBounds(2,520,100,50);
+		b5.setFocusable(false);
      	c.add(b5);
 		
 		
