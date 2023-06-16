@@ -10,6 +10,7 @@ public class Nagad extends JFrame
 	private Font f1,f2,f3,f4,f5;
 	private JTextField t1;
 	private JPasswordField p1;
+	ImageIcon imgLogo;
 	
 	
 	public Nagad()
@@ -24,6 +25,9 @@ public class Nagad extends JFrame
 		setLayout(null);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
      	f2 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
