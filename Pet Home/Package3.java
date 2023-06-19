@@ -14,7 +14,7 @@ public class Package3 extends JFrame
 	private JButton b1,b2;
 	private Font f, f1;
 	private Container c;
-	ImageIcon img1;
+	ImageIcon img1, imgLogo;
 	
 	Package3()
 	{
@@ -26,6 +26,9 @@ public class Package3 extends JFrame
      	setLayout(null);
      	setVisible(true);
      	setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 		f = new Font("Arial",Font.BOLD + Font.ITALIC, 15);
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 45);
