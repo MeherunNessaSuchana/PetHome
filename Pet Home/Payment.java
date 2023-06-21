@@ -21,6 +21,7 @@ public class Payment extends JFrame
     private JRadioButton sharedSpaceRadioButton;
     private JLabel totalPaymentLabel;
 	private Container c;
+	ImageIcon imgLogo;
 
     public Payment() 
 	{
@@ -33,6 +34,9 @@ public class Payment extends JFrame
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(null);
 		setVisible(true);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
 
