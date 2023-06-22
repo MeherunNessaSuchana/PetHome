@@ -9,6 +9,7 @@ public class PaymentOptions extends JFrame
 	private Container c;
 	private JButton b1,b2,b3,b4;
 	private Font f1,f2,f3,f4;
+	ImageIcon imgLogo;
 	
 	
 	
@@ -24,6 +25,9 @@ public class PaymentOptions extends JFrame
 		setLayout(null);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 		f1 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
      	f2 = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
