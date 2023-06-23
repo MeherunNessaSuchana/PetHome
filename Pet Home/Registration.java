@@ -240,6 +240,7 @@ public class Registration extends JFrame {
 	JTextField t1, t2, t3, t4, t5;
 	JComboBox<String> cb1;
 	Font f1, f2;
+	ImageIcon imgLogo;
 	
 	private Container c;
 
@@ -252,6 +253,9 @@ public class Registration extends JFrame {
 		setLayout(null);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
 		f1 = new Font("Arial", Font.BOLD + Font.ITALIC, 20);
 		f2 = new Font("Courier", Font.PLAIN, 18);
@@ -417,8 +421,3 @@ public class Registration extends JFrame {
 		frame.setVisible(true);
 	}
 }
-
-
-
-
-
