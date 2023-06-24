@@ -9,7 +9,7 @@ import java.awt.event.*;
 public class Service extends JFrame{
 
 	JLabel l1, imagelabel;
-	ImageIcon img;
+	ImageIcon img, imgLogo;
 	JButton b1,b2,b3,b4,b5;
 	private Font f;
 	private Container c;
@@ -23,6 +23,9 @@ public class Service extends JFrame{
 		imagelabel = new JLabel(img);
 		imagelabel.setBounds(220,0,780,600);
 		c.add(imagelabel);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 		
 
      	f = new Font("Arial",Font.BOLD + Font.ITALIC, 20);
