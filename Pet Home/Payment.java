@@ -122,6 +122,7 @@ public class Payment extends JFrame
 		b2.setFont(f1);
 		b2.setForeground(Color.WHITE);
      	b2.setBackground(Color.BLACK);
+        b2.setFocusable(false);
      	c.add(b2);
 
 

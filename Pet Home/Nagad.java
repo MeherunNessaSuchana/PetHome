@@ -39,6 +39,7 @@ public class Nagad extends JFrame
 	    b1 = new JButton("Nagad Number: "); 
 		b1.setBounds (50,100,300,50) ; 
 		b1.setFont(f1);
+		b1.setFocusable(false);
 		c.add(b1);
 		
 		t1 = new JTextField();
@@ -50,6 +51,7 @@ public class Nagad extends JFrame
 		b2 = new JButton("Enter Your Pin Number: ");
 		b2.setBounds (50,200,300,50) ;
 		b2.setFont(f2);
+		b2.setFocusable(false);
 		c.add(b2);
 		
 		p1 = new JPasswordField();
@@ -62,6 +64,7 @@ public class Nagad extends JFrame
 		b3 = new JButton("pay");
 		b3.setBounds (300,350,300,80) ;
 		b3.setFont(f3);
+		b3.setFocusable(false);
 		c.add(b3);
 		
 		b3.addActionListener(new ActionListener(){
@@ -91,6 +94,7 @@ public class Nagad extends JFrame
 		b4 = new JButton("Back");
 		b4.setBounds (10,500,100,40);
 		b4.setFont(f4);
+		b4.setFocusable(false);
 		c.add(b4);
 		
 		b4.addActionListener(new ActionListener() {

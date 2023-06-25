@@ -59,13 +59,12 @@ public class CustomerLogin extends JFrame
 
      	l3 = new JLabel();
      	l3.setText("If you don't have any account:- ");
-     	l3.setBounds(500,495,300,50);
+     	l3.setBounds(500,495,200,50);
    		l3.setFont(f3);
      	l3.setOpaque(true);
      	l3.setForeground(Color.BLACK);
      	l3.setBackground(Color.GRAY);
      	c.add(l3);
-
 
 
      	t1 = new JTextField();
@@ -84,6 +83,7 @@ public class CustomerLogin extends JFrame
 		b1.setFont(f1);
 		b1.setForeground(Color.WHITE);
      	b1.setBackground(Color.BLACK);
+		b1.setFocusable(false);
      	c.add(b1);
 
      	b2= new JButton();
@@ -92,6 +92,7 @@ public class CustomerLogin extends JFrame
 		b2.setFont(f1);
 		b2.setForeground(Color.WHITE);
      	b2.setBackground(Color.BLACK);
+		b2.setFocusable(false);
      	c.add(b2);
 
      	b3= new JButton();
@@ -100,6 +101,7 @@ public class CustomerLogin extends JFrame
 		b3.setFont(f1);
 		b3.setForeground(Color.WHITE);
      	b3.setBackground(Color.BLACK);
+		b3.setFocusable(false);
      	c.add(b3);
 	
 

@@ -43,6 +43,7 @@ public class About extends JFrame
 	
 	b2 = new JButton("Animal Rights");
     b2.setBounds(400,300,600,100);
+	b2.setFocusable(false);
     c.add(b2);
 		
 		b2.addActionListener(new ActionListener(){
@@ -59,6 +60,7 @@ public class About extends JFrame
 		
 	b3 = new JButton("Contribution");
     b3.setBounds(400,450,600,100);
+	b3.setFocusable(false);
     c.add(b3);
 		
 		b3.addActionListener(new ActionListener(){
@@ -75,6 +77,7 @@ public class About extends JFrame
 	
 	b1= new JButton("Back");
     b1.setBounds(2,520,100,50);
+	b1.setFocusable(false);
     c.add(b1);
 		
 		b1.addActionListener(new ActionListener(){

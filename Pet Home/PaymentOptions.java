@@ -39,6 +39,7 @@ public class PaymentOptions extends JFrame
 	    b1 = new JButton("Payment Options"); 
 		b1.setBounds (390,150,200,50) ; 
 		b1.setFont(f1);
+		b1.setFocusable(false);
 		c.add(b1);
 		
 		
@@ -46,18 +47,21 @@ public class PaymentOptions extends JFrame
 		b2 = new JButton("Nagad");
 		b2.setBounds (250,250,200,50) ;
 		b2.setFont(f2);
+		b2.setFocusable(false);
 		c.add(b2);
 		
 		
 		b3 = new JButton("Bkash");
 		b3.setBounds (500,250,200,50) ;
 		b3.setFont(f3);
+		b3.setFocusable(false);
 		c.add(b3);
 		
 		
 		b4 = new JButton("Back");
 		b4.setBounds (10,500,100,40);
 		b4.setFont(f4);
+		b4.setFocusable(false);
 		c.add(b4);
 		
 		b2.addActionListener(new ActionListener(){

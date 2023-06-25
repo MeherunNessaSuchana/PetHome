@@ -47,18 +47,22 @@ public class Home extends JFrame
 
      	b1 = new JButton("Login/Registar");
      	b1.setBounds(20,200,200,50);
+		b1.setFocusable(false);
      	c.add(b1);
 
      	b2 = new JButton("Admin");
      	b2.setBounds(20,50,200,50);
+		b2.setFocusable(false);
      	c.add(b2);
 
      	b3 = new JButton("Services");
      	b3.setBounds(20,300,200,50);
+		b3.setFocusable(false);
      	c.add(b3);
 
      	b4 = new JButton("About");
      	b4.setBounds(20,450,200,50);
+		b4.setFocusable(false);
      	c.add(b4);
 		
 		b1.addActionListener(new ActionListener(){
