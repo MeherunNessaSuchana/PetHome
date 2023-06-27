@@ -10,7 +10,6 @@ import java.lang.*;
 
 public class UserData extends JFrame {
 
-    
 
     //private ImageIcon icon;
     JLabel l1;
@@ -19,6 +18,7 @@ public class UserData extends JFrame {
     JTable table;
     DefaultTableModel model;
     JButton b1, b2, b3, b4,b5;
+	ImageIcon imgLogo;
 
     private Container c;
 
@@ -36,6 +36,10 @@ public class UserData extends JFrame {
         setVisible(true);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		
+		imgLogo = new ImageIcon(getClass().getResource("logo.png"));
+		this.setIconImage (imgLogo.getImage());
 
         f1 = new Font("Arial",Font.BOLD, 50);
         f2 = new Font("Courier",Font.BOLD, 20);
