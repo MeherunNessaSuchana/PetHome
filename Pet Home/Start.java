@@ -1,6 +1,4 @@
 
-
-
 import java.lang.*;
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +9,6 @@ public class Start
 	{
 		Home home = new Home();
 		home.setVisible(true);
+		setResizable(false);
 	}
 }
-
-
