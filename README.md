@@ -44,6 +44,7 @@ To run the PetHome project, follow these steps:
    java Start
    ```
 
+<!--
 ## Screenshots
 
 Here are a few screenshots of the PetHome application:
@@ -51,6 +52,7 @@ Here are a few screenshots of the PetHome application:
 1. ![Screenshot 1](screenshots/screenshot1.png)
 2. ![Screenshot 2](screenshots/screenshot2.png)
 3. ![Screenshot 3](screenshots/screenshot3.png)
+-->
 
 ## Contributing
 
