@@ -1,15 +1,3 @@
-Pet Type: javax.swing.JComboBox[,310,50,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Bird]
-Pet Name: neha
-Any Disease: paykhana
-Pickup Option: javax.swing.JComboBox[,310,260,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Home Pickup]
-Delivary Option: javax.swing.JComboBox[,310,330,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Shop Pickup]
-===============================================
-Pet Type: javax.swing.JComboBox[,310,50,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Dog]
-Pet Name: Neha
-Any Disease: Paykhana kore na
-Pickup Option: javax.swing.JComboBox[,310,260,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Home Pickup]
-Delivary Option: javax.swing.JComboBox[,310,330,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Shop Pickup]
-===============================================
 Pet Type: javax.swing.JComboBox[,310,50,190x50,alignmentX=0.0,alignmentY=0.0,border=,flags=328,maximumSize=,minimumSize=,preferredSize=,isEditable=false,lightWeightPopupEnabled=true,maximumRowCount=8,selectedItemReminder=Cat]
 Pet Name: dasds
 Any Disease: sdsada
